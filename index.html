@@ -3,6 +3,44 @@
   <head>
     <meta charset="UTF-8">
     <title>Page Title</title>
+    
+    <style>
+      @font-face
+      {
+        font-family: UNCHeading;
+        src: url(css/Fonts/UNCHeading.ttf.ttf)
+      }
+      @font-face
+      {
+        font-family: UNCBody;
+        src: url(css/Fonts/UNCBody.ttf.ttf)
+      }
+      h1
+      {
+        font-family: UNCHeading, sans-serif;
+        font-size: 5vw;
+        font-weight: normal;
+        text-decoration: underline;
+      }
+      li
+      {
+        font-family: UNCHeading,sans-serif;
+        font-size: 150%;
+      }
+      p a
+      {
+        font-size: 12pt;
+        font-style: italic;
+      }
+      img
+      {
+        width: 30vw;
+      }
+      a{
+        font-family: UNCBody;
+      }
+    </style>
+    <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
     <h1>My Homepage</h1>
@@ -24,7 +62,7 @@
       <a href="superhero.html">Superheros</a>
    </li>
     </ul>
-    <p>
+    <p class="footertext">
         <a href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fjacobnederbragt.github.io%2F">Validate my page</a>
     </p>
   </body>
