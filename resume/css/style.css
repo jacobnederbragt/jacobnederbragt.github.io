@@ -10,6 +10,7 @@
 nav
 {
     color: var(--uncblue);
+    border:5px solid var(--uncgold);
 }
 
 nav li
@@ -26,9 +27,41 @@ nav ul
 
 h1
 {
-    font-size: 48px;
+    font-size: 48pt;
     text-align: center;
     color: var(--uncblue);
+}
+
+.date
+{
+    color:red ;
+    font-weight: bold;
+    font-size: 20pt;
+    list-style-type: none;
+}
+
+.major
+{
+    font-style: bold;
+}
+
+.location
+{
+    font-weight: bold;
+    font-size: 26pt;
+}
+
+.entry 
+{
+    background-color: rgb(224, 238, 144);
+    color: var(--uncgray);
+    border: 5px solid var(--uncgold);
+    margin-top: 50px;
+}
+
+.title
+{
+    font-size: 20pt;
 }
 
 img
@@ -36,11 +69,15 @@ img
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 50%;
+    height: 300px;
 }
 
 ul li
 {
     font-weight: bold;
+    font-size: 30px;
+    color: var(--uncblue);
 }
 
 .footertext
@@ -53,6 +90,9 @@ ul li
 h2
 {
     text-align: center;
+    font: size 36pt; 
+    margin-top: 5px;
+    color: blue;
 }
 
 h2 + p
