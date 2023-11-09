@@ -53,7 +53,7 @@ h1
 
 .entry 
 {
-    background-color: rgb(224, 238, 144);
+    background-color: rgb(163, 165, 156);
     color: var(--uncgray);
     border: 5px solid var(--uncgold);
     margin-top: 50px;
@@ -76,7 +76,7 @@ img
 ul li
 {
     font-weight: bold;
-    font-size: 30px;
+    font-size: 40px;
     color: var(--uncblue);
 }
 
@@ -90,7 +90,7 @@ ul li
 h2
 {
     text-align: center;
-    font: size 36pt; 
+    font-size:40pt; 
     margin-top: 5px;
     color: blue;
 }
